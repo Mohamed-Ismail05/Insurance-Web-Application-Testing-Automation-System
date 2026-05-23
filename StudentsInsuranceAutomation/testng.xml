@@ -1,0 +1,30 @@
+
+<suite name="Sequential Suite">
+
+    <listeners>
+        <!-- Listener for Extent Reports (optional) -->
+        <listener class-name="ExtendReport.ExtentReportManager" />
+    </listeners>
+
+    <!-- Sequential Test Execution -->
+    <test name="ChromeTest">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="InsuranceAutomation_testClass.CarInsuranceTest" />
+            <class name="InsuranceAutomation_testClass.HealthInsuranceTest" />
+            <class name="InsuranceAutomation_testClass.BikeInsuranceTest" />
+            <class name="InsuranceAutomation_testClass.TermLifeInsuranceTest" />
+        </classes>
+    </test>
+
+    <!--<test name="EdgeTest">
+        <parameter name="browser" value="edge" />
+        <classes>
+            <class name="InsuranceAutomation_testClass.CarInsuranceTest" />
+            <class name="InsuranceAutomation_testClass.HealthInsuranceTest" />
+            <class name="InsuranceAutomation_testClass.BikeInsuranceTest" />
+            <class name="InsuranceAutomation_testClass.TermLifeInsuranceTest" />
+        </classes>
+    </test>-->
+
+</suite>

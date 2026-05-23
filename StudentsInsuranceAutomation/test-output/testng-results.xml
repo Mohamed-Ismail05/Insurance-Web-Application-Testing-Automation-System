@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-22T14:31:00 IST" name="Sequential Suite" finished-at="2025-04-22T14:32:44 IST" duration-ms="104171">
+    <groups>
+    </groups>
+    <test started-at="2025-04-22T14:31:00 IST" name="ChromeTest" finished-at="2025-04-22T14:32:44 IST" duration-ms="104171">
+      <class name="InsuranceAutomation_testClass.CarInsuranceTest">
+        <test-method is-config="true" signature="driverSetup(java.lang.String)[pri:0, instance:InsuranceAutomation_testClass.CarInsuranceTest@1e800aaa]" started-at="2025-04-22T14:31:01 IST" name="driverSetup" finished-at="2025-04-22T14:31:07 IST" duration-ms="6048" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="testHomePage()[pri:1, instance:InsuranceAutomation_testClass.CarInsuranceTest@1e800aaa]" started-at="2025-04-22T14:31:07 IST" name="testHomePage" finished-at="2025-04-22T14:31:10 IST" duration-ms="2877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method signature="testCarNavigation()[pri:2, instance:InsuranceAutomation_testClass.CarInsuranceTest@1e800aaa]" started-at="2025-04-22T14:31:10 IST" name="testCarNavigation" finished-at="2025-04-22T14:31:12 IST" depends-on-methods="InsuranceAutomation_testClass.CarInsuranceTest.testHomePage" duration-ms="1739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarNavigation -->
+        <test-method signature="testCarDetailsEntry()[pri:3, instance:InsuranceAutomation_testClass.CarInsuranceTest@1e800aaa]" started-at="2025-04-22T14:31:12 IST" name="testCarDetailsEntry" finished-at="2025-04-22T14:31:29 IST" depends-on-methods="InsuranceAutomation_testClass.CarInsuranceTest.testCarNavigation" duration-ms="17303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarDetailsEntry -->
+        <test-method signature="testCarErrorMessages()[pri:4, instance:InsuranceAutomation_testClass.CarInsuranceTest@1e800aaa]" started-at="2025-04-22T14:31:29 IST" name="testCarErrorMessages" finished-at="2025-04-22T14:31:30 IST" depends-on-methods="InsuranceAutomation_testClass.CarInsuranceTest.testCarDetailsEntry" duration-ms="1363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarErrorMessages -->
+        <test-method is-config="true" signature="close()[pri:0, instance:InsuranceAutomation_testClass.CarInsuranceTest@1e800aaa]" started-at="2025-04-22T14:31:30 IST" name="close" finished-at="2025-04-22T14:31:34 IST" duration-ms="3747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- InsuranceAutomation_testClass.CarInsuranceTest -->
+      <class name="InsuranceAutomation_testClass.HealthInsuranceTest">
+        <test-method is-config="true" signature="driverSetup(java.lang.String)[pri:0, instance:InsuranceAutomation_testClass.HealthInsuranceTest@3cd3e762]" started-at="2025-04-22T14:31:34 IST" name="driverSetup" finished-at="2025-04-22T14:31:38 IST" duration-ms="3896" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="testHomePage()[pri:1, instance:InsuranceAutomation_testClass.HealthInsuranceTest@3cd3e762]" started-at="2025-04-22T14:31:38 IST" name="testHomePage" finished-at="2025-04-22T14:31:40 IST" duration-ms="1924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method signature="testHealthDetailsEntry()[pri:2, instance:InsuranceAutomation_testClass.HealthInsuranceTest@3cd3e762]" started-at="2025-04-22T14:31:40 IST" name="testHealthDetailsEntry" finished-at="2025-04-22T14:31:48 IST" depends-on-methods="InsuranceAutomation_testClass.HealthInsuranceTest.testHomePage" duration-ms="8345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHealthDetailsEntry -->
+        <test-method signature="testHealthErrorMessages()[pri:3, instance:InsuranceAutomation_testClass.HealthInsuranceTest@3cd3e762]" started-at="2025-04-22T14:31:48 IST" name="testHealthErrorMessages" finished-at="2025-04-22T14:31:53 IST" depends-on-methods="InsuranceAutomation_testClass.HealthInsuranceTest.testHealthDetailsEntry" duration-ms="4440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHealthErrorMessages -->
+        <test-method is-config="true" signature="close()[pri:0, instance:InsuranceAutomation_testClass.HealthInsuranceTest@3cd3e762]" started-at="2025-04-22T14:31:53 IST" name="close" finished-at="2025-04-22T14:31:58 IST" duration-ms="5076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- InsuranceAutomation_testClass.HealthInsuranceTest -->
+      <class name="InsuranceAutomation_testClass.BikeInsuranceTest">
+        <test-method is-config="true" signature="driverSetup(java.lang.String)[pri:0, instance:InsuranceAutomation_testClass.BikeInsuranceTest@1fa121e2]" started-at="2025-04-22T14:31:58 IST" name="driverSetup" finished-at="2025-04-22T14:32:01 IST" duration-ms="3633" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="testHomePage()[pri:1, instance:InsuranceAutomation_testClass.BikeInsuranceTest@1fa121e2]" started-at="2025-04-22T14:32:02 IST" name="testHomePage" finished-at="2025-04-22T14:32:03 IST" duration-ms="1917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method signature="testBikeNavigation()[pri:2, instance:InsuranceAutomation_testClass.BikeInsuranceTest@1fa121e2]" started-at="2025-04-22T14:32:03 IST" name="testBikeNavigation" finished-at="2025-04-22T14:32:05 IST" depends-on-methods="InsuranceAutomation_testClass.BikeInsuranceTest.testHomePage" duration-ms="1687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBikeNavigation -->
+        <test-method signature="testBikeDetailsEntry()[pri:3, instance:InsuranceAutomation_testClass.BikeInsuranceTest@1fa121e2]" started-at="2025-04-22T14:32:05 IST" name="testBikeDetailsEntry" finished-at="2025-04-22T14:32:12 IST" depends-on-methods="InsuranceAutomation_testClass.BikeInsuranceTest.testBikeNavigation" duration-ms="7378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBikeDetailsEntry -->
+        <test-method signature="testBikeRegistrationDetailsEntry()[pri:4, instance:InsuranceAutomation_testClass.BikeInsuranceTest@1fa121e2]" started-at="2025-04-22T14:32:12 IST" name="testBikeRegistrationDetailsEntry" finished-at="2025-04-22T14:32:15 IST" depends-on-methods="InsuranceAutomation_testClass.BikeInsuranceTest.testBikeDetailsEntry" duration-ms="2657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBikeRegistrationDetailsEntry -->
+        <test-method signature="testBikePolicyExpiredDetailsEntry()[pri:5, instance:InsuranceAutomation_testClass.BikeInsuranceTest@1fa121e2]" started-at="2025-04-22T14:32:15 IST" name="testBikePolicyExpiredDetailsEntry" finished-at="2025-04-22T14:32:19 IST" depends-on-methods="InsuranceAutomation_testClass.BikeInsuranceTest.testBikeRegistrationDetailsEntry" duration-ms="3726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBikePolicyExpiredDetailsEntry -->
+        <test-method signature="testBikePlanResult()[pri:6, instance:InsuranceAutomation_testClass.BikeInsuranceTest@1fa121e2]" started-at="2025-04-22T14:32:19 IST" name="testBikePlanResult" finished-at="2025-04-22T14:32:22 IST" depends-on-methods="InsuranceAutomation_testClass.BikeInsuranceTest.testBikePolicyExpiredDetailsEntry" duration-ms="3394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBikePlanResult -->
+        <test-method is-config="true" signature="close()[pri:0, instance:InsuranceAutomation_testClass.BikeInsuranceTest@1fa121e2]" started-at="2025-04-22T14:32:22 IST" name="close" finished-at="2025-04-22T14:32:26 IST" duration-ms="3903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- InsuranceAutomation_testClass.BikeInsuranceTest -->
+      <class name="InsuranceAutomation_testClass.TermLifeInsuranceTest">
+        <test-method is-config="true" signature="driverSetup(java.lang.String)[pri:0, instance:InsuranceAutomation_testClass.TermLifeInsuranceTest@4116aac9]" started-at="2025-04-22T14:32:26 IST" name="driverSetup" finished-at="2025-04-22T14:32:30 IST" duration-ms="3814" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="testHomePage()[pri:1, instance:InsuranceAutomation_testClass.TermLifeInsuranceTest@4116aac9]" started-at="2025-04-22T14:32:30 IST" name="testHomePage" finished-at="2025-04-22T14:32:32 IST" duration-ms="2356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method signature="testTermLifeNavigation()[pri:2, instance:InsuranceAutomation_testClass.TermLifeInsuranceTest@4116aac9]" started-at="2025-04-22T14:32:32 IST" name="testTermLifeNavigation" finished-at="2025-04-22T14:32:34 IST" depends-on-methods="InsuranceAutomation_testClass.TermLifeInsuranceTest.testHomePage" duration-ms="1523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTermLifeNavigation -->
+        <test-method signature="testTermLifeDetailsEntry()[pri:3, instance:InsuranceAutomation_testClass.TermLifeInsuranceTest@4116aac9]" started-at="2025-04-22T14:32:34 IST" name="testTermLifeDetailsEntry" finished-at="2025-04-22T14:32:40 IST" depends-on-methods="InsuranceAutomation_testClass.TermLifeInsuranceTest.testTermLifeNavigation" duration-ms="6442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTermLifeDetailsEntry -->
+        <test-method signature="testTermLifeErrorMessages()[pri:3, instance:InsuranceAutomation_testClass.TermLifeInsuranceTest@4116aac9]" started-at="2025-04-22T14:32:40 IST" name="testTermLifeErrorMessages" finished-at="2025-04-22T14:32:41 IST" depends-on-methods="InsuranceAutomation_testClass.TermLifeInsuranceTest.testTermLifeDetailsEntry" duration-ms="923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTermLifeErrorMessages -->
+        <test-method is-config="true" signature="close()[pri:0, instance:InsuranceAutomation_testClass.TermLifeInsuranceTest@4116aac9]" started-at="2025-04-22T14:32:41 IST" name="close" finished-at="2025-04-22T14:32:44 IST" duration-ms="3168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- InsuranceAutomation_testClass.TermLifeInsuranceTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Sequential Suite -->
+</testng-results>
